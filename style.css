@@ -1,0 +1,80 @@
+/* Body Styling */
+body {
+    font-family: 'Cursive', sans-serif;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    text-align: center;
+    color: #6b3e26;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    min-height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     height: 100%;
+    overflow-y: auto; /* Allows vertical scrolling */
+    overflow-x: hidden;
+}
+
+/* Container for Full Page Layout */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Love Letter Section */
+.love-letter {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* Image in Love Letter */
+.love-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+    background-color: #ff4880;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d83167;
+}
+
+/* Fade-in effects */
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Hidden elements */
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
